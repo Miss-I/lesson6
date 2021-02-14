@@ -13,6 +13,10 @@ public class Cat extends Animals {
 
     }
 
+    public static int getCatCount() {
+        return catCount;
+    }
+
     @Override
     public void run(int distance) {
         if (distance < maxRunDistance) {

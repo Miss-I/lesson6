@@ -10,6 +10,9 @@ public abstract class Animals {
         animalsCount++;
     }
 
+    public static int getAnimalsCount() {
+        return animalsCount;
+    }
 
     public abstract void run(int distance);
 
